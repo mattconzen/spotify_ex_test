@@ -12,8 +12,10 @@ config :logger, level: :warn
 # Configure your database
 config :spotify_ex_test, SpotifyExTest.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  #  username: "postgres",
+  #  password: "postgres",
   database: "spotify_ex_test_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
+
+config :hound, driver: "phantomjs"

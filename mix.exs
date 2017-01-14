@@ -37,7 +37,7 @@ defmodule SpotifyExTest.Mixfile do
      {:phoenix_haml, "~> 0.2.1"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:poison, ">= 1.5.0"},
-     {:spotify_ex, path: "~/code/spotify_ex"},
+     {:spotify_ex, "~> 2.0.4"},
      {:hound, "~> 1.0", only: :test},
      {:cowboy, "~> 1.0"}]
   end
